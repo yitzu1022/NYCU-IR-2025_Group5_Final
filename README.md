@@ -2,6 +2,9 @@
 
 本專案為資訊檢索與擷取 Generative Information Retrieval 課程期末Project。我們實作了一個基於 **Visual RAG (Retrieval-Augmented Generation)** 的地理定位系統。系統結合了視覺檢索模型 (CLIP / GeoCLIP) 與大型語言模型 (Google Gemini)，透過檢索相似圖片作為上下文，輔助 LLM 進行更精準的地理位置推論。
 
+專案完整書面報告請參考：
+[Project Report](docs/project_report.pdf)
+
 ## Project Structure
 
 - **`ir_final.py`**: 主要執行檔。包含資料前處理、索引建置 (Indexing)、檢索 (Retrieval) 及 LLM 生成 (Generation) 的完整流程。
